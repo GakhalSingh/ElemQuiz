@@ -48,7 +48,7 @@
                                 <rect key="frame" x="235" y="707" width="116" height="45"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="Next Element"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Next"/>
                                 <connections>
                                     <action selector="next:" destination="BYZ-38-t0r" eventType="touchUpInside" id="kqn-NG-399"/>
                                 </connections>

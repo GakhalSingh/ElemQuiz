@@ -68,6 +68,7 @@ class ViewController: UIViewController, UITextFieldDelegate {
             currentElementIndex = 0
         }
         state = .question
+        textField.text = ""
         updateFlashCardUI()
     }
     
@@ -76,7 +77,6 @@ class ViewController: UIViewController, UITextFieldDelegate {
         if textFieldContents.lowercased() == elementList[currentElementIndex].lowercased() {
             answerIsCorrect = true
             correctAnswerCount += 1
-            print("Answer is correct xd")
         } else {
             answerIsCorrect = false
         }
