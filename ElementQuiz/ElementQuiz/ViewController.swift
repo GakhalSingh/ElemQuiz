@@ -33,7 +33,6 @@ class ViewController: UIViewController, UITextFieldDelegate {
     var correctAnswerCount = 0
 
     func updateQuizUI(){
-        
     }
     
     func updateFlashCardUI() {
@@ -77,6 +76,7 @@ class ViewController: UIViewController, UITextFieldDelegate {
         if textFieldContents.lowercased() == elementList[currentElementIndex].lowercased() {
             answerIsCorrect = true
             correctAnswerCount += 1
+            print("Answer is correct xd")
         } else {
             answerIsCorrect = false
         }
@@ -89,7 +89,4 @@ class ViewController: UIViewController, UITextFieldDelegate {
         super.viewDidLoad()
         updateFlashCardUI()
     }
-    
 }
-
-
