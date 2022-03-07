@@ -31,8 +31,7 @@ class ViewController: UIViewController {
     var currentElementIndex = 0
     
     func updateFlashCardUI() {
-        let elementName =
-           elementList[currentElementIndex]
+        let elementName = elementList[currentElementIndex]
         let image = UIImage(named: elementName)
         imageView.image = image
         if state == .answer {
@@ -42,7 +41,7 @@ class ViewController: UIViewController {
         }
     }
 
-    @IBAction func showAnswer() {
+    @IBAction func showAnswer(_ sender: UIButton) {
         state = .answer
         answerLabel.text = elementList[currentElementIndex]
         updateFlashCardUI()
