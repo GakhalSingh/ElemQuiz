@@ -129,6 +129,7 @@
                         <outlet property="falseAnswerCountUI" destination="Qsb-Sk-biz" id="YKr-rU-OHh"/>
                         <outlet property="imageView" destination="g9y-al-JQM" id="VJg-3X-MPu"/>
                         <outlet property="modeSelector" destination="7Qy-bb-SIB" id="Ikx-tf-WuA"/>
+                        <outlet property="nextButton" destination="eqr-Fd-w0t" id="eJJ-Qi-bdE"/>
                         <outlet property="showAnswerButton" destination="aBG-0K-83E" id="Kbc-bX-0aJ"/>
                         <outlet property="textField" destination="3pd-JZ-hEr" id="bzP-n7-vzR"/>
                     </connections>

@@ -29,6 +29,7 @@ class ViewController: UIViewController, UITextFieldDelegate {
     @IBOutlet weak var correctAnswerCountUI: UILabel!
     @IBOutlet weak var showAnswerButton: UIButton!
     @IBOutlet weak var falseAnswerCountUI: UILabel!
+    @IBOutlet weak var nextButton: UIButton!
     
     let elementList = ["Carbon", "Gold", "Chlorine","Sodium"]
     var currentElementIndex = 0
@@ -60,6 +61,7 @@ class ViewController: UIViewController, UITextFieldDelegate {
         textField.isEnabled = false
         answerLabel.text = elementList[currentElementIndex]
         updateFlashCardUI()
+        nextButton.isEnabled = true
     }
     
     @IBAction func next(_ sender: Any) {
@@ -72,6 +74,7 @@ class ViewController: UIViewController, UITextFieldDelegate {
         textField.text = ""
         textField.isEnabled = true
         updateFlashCardUI()
+        nextButton.isEnabled = false
     }
     
     func updateFlashCardUI() {
@@ -108,7 +111,7 @@ class ViewController: UIViewController, UITextFieldDelegate {
             falseAnswerCountUI.text = String(falseAnswerCount)
         }
         state = .answer
-        
+        nextButton.isEnabled = true
         updateUI()
         return true
     }
