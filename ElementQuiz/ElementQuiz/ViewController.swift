@@ -27,6 +27,7 @@ class ViewController: UIViewController, UITextFieldDelegate {
     @IBOutlet weak var answerLabel: UILabel!
     @IBOutlet weak var textField: UITextField!
     @IBOutlet weak var correctAnswerCountUI: UILabel!
+    @IBOutlet weak var showAnswerButton: UIButton!
     
     let elementList = ["Carbon", "Gold", "Chlorine","Sodium"]
     var currentElementIndex = 0
@@ -53,6 +54,14 @@ class ViewController: UIViewController, UITextFieldDelegate {
             updateFlashCardUI()
         case .quiz:
             updateQuizUI()
+        }
+    }
+    
+    @IBAction func modeSwitcher(_ sender: UISegmentedControl) {
+        if modeSelector.selectedSegmentIndex == 1 {
+            showAnswerButton.isEnabled = false
+        } else if modeSelector.selectedSegmentIndex == 0 {
+            showAnswerButton.isEnabled = true
         }
     }
     

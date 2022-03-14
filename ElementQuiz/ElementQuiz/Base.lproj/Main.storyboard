@@ -45,6 +45,9 @@
                                     <segment title="Flash Cards"/>
                                     <segment title="Quiz"/>
                                 </segments>
+                                <connections>
+                                    <action selector="modeSwitcher:" destination="BYZ-38-t0r" eventType="valueChanged" id="XLa-2m-tvg"/>
+                                </connections>
                             </segmentedControl>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eqr-Fd-w0t">
                                 <rect key="frame" x="278" y="738" width="116" height="45"/>
@@ -113,6 +116,7 @@
                         <outlet property="correctAnswerCountUI" destination="1it-Wo-Gxo" id="GlX-N8-YEB"/>
                         <outlet property="imageView" destination="g9y-al-JQM" id="VJg-3X-MPu"/>
                         <outlet property="modeSelector" destination="7Qy-bb-SIB" id="Ikx-tf-WuA"/>
+                        <outlet property="showAnswerButton" destination="aBG-0K-83E" id="Kbc-bX-0aJ"/>
                         <outlet property="textField" destination="3pd-JZ-hEr" id="bzP-n7-vzR"/>
                     </connections>
                 </viewController>
