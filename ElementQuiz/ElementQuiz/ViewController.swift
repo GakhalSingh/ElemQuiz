@@ -51,9 +51,24 @@ class ViewController: UIViewController, UITextFieldDelegate {
         if modeSelector.selectedSegmentIndex == 1 {
 //            self.present(alert, animated: true, completion: nil)
             showAnswerButton.isEnabled = false
+            correctAnswerCount = 0
+            falseAnswerCount = 0
+            correctAnswerCountUI.text = String(correctAnswerCount)
+            falseAnswerCountUI.text = String(falseAnswerCount)
+            currentElementIndex += 1
+            if currentElementIndex ==
+               elementList.count {
+                currentElementIndex = 0
+            }
+            state = .question
+            textField.text = ""
+            textField.isEnabled = true
+            updateFlashCardUI()
+            nextButton.isEnabled = false
         } else if modeSelector.selectedSegmentIndex == 0 {
             showAnswerButton.isEnabled = true
         }
+        
     }
     
     @IBAction func showAnswer(_ sender: UIButton) {
