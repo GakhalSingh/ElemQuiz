@@ -28,13 +28,50 @@ class ViewController: UIViewController, UITextFieldDelegate {
     @IBOutlet weak var textField: UITextField!
     @IBOutlet weak var correctAnswerCountUI: UILabel!
     @IBOutlet weak var showAnswerButton: UIButton!
+    @IBOutlet weak var falseAnswerCountUI: UILabel!
     
     let elementList = ["Carbon", "Gold", "Chlorine","Sodium"]
     var currentElementIndex = 0
     var answerIsCorrect = false
     var correctAnswerCount = 0
+    var falseAnswerCount = 0
+    
+    @IBAction func showAlertButtonTapped(_ sender: UIButton) {
 
+            let alert = UIAlertController(title: "Note", message: "Use Enter or Return to submit your answer.", preferredStyle: .alert)
+
+            alert.addAction(UIAlertAction(title: "OK", style: UIAlertAction.Style.default, handler: nil))
+        }
+    
     func updateQuizUI(){
+    }
+    
+    @IBAction func modeSwitcher(_ sender: UISegmentedControl) {
+        if modeSelector.selectedSegmentIndex == 1 {
+//            self.present(alert, animated: true, completion: nil)
+            showAnswerButton.isEnabled = false
+        } else if modeSelector.selectedSegmentIndex == 0 {
+            showAnswerButton.isEnabled = true
+        }
+    }
+    
+    @IBAction func showAnswer(_ sender: UIButton) {
+        state = .answer
+        textField.isEnabled = false
+        answerLabel.text = elementList[currentElementIndex]
+        updateFlashCardUI()
+    }
+    
+    @IBAction func next(_ sender: Any) {
+        currentElementIndex += 1
+        if currentElementIndex ==
+           elementList.count {
+            currentElementIndex = 0
+        }
+        state = .question
+        textField.text = ""
+        textField.isEnabled = true
+        updateFlashCardUI()
     }
     
     func updateFlashCardUI() {
@@ -57,41 +94,21 @@ class ViewController: UIViewController, UITextFieldDelegate {
         }
     }
     
-    @IBAction func modeSwitcher(_ sender: UISegmentedControl) {
-        if modeSelector.selectedSegmentIndex == 1 {
-            showAnswerButton.isEnabled = false
-        } else if modeSelector.selectedSegmentIndex == 0 {
-            showAnswerButton.isEnabled = true
-        }
-    }
-    
-    @IBAction func showAnswer(_ sender: UIButton) {
-        state = .answer
-        answerLabel.text = elementList[currentElementIndex]
-        updateFlashCardUI()
-    }
-    
-    @IBAction func next(_ sender: Any) {
-        currentElementIndex += 1
-        if currentElementIndex ==
-           elementList.count {
-            currentElementIndex = 0
-        }
-        state = .question
-        textField.text = ""
-        updateFlashCardUI()
-    }
-    
     func textFieldShouldReturn(_ textField: UITextField) -> Bool {
         let textFieldContents = textField.text!
+        textField.isEnabled = false
         if textFieldContents.lowercased() == elementList[currentElementIndex].lowercased() {
             answerIsCorrect = true
+            
             correctAnswerCount += 1
             correctAnswerCountUI.text = String(correctAnswerCount)
         } else {
             answerIsCorrect = false
+            falseAnswerCount += 1
+            falseAnswerCountUI.text = String(falseAnswerCount)
         }
         state = .answer
+        
         updateUI()
         return true
     }

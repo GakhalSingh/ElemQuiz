@@ -73,14 +73,30 @@
                                     <action selector="showAnswer:" destination="BYZ-38-t0r" eventType="touchUpInside" id="b61-6p-Ha1"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Correct Answers:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JJ4-6Y-QM9">
-                                <rect key="frame" x="141" y="577" width="132" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Correct Answers:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JJ4-6Y-QM9">
+                                <rect key="frame" x="141" y="573" width="132" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1it-Wo-Gxo">
-                                <rect key="frame" x="202" y="624" width="16" height="30"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1it-Wo-Gxo">
+                                <rect key="frame" x="199" y="625" width="16" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Wrong Answers:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pcU-Hj-rvv">
+                                <rect key="frame" x="145" y="463" width="125" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Qsb-Sk-biz">
+                                <rect key="frame" x="199" y="515" width="16" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -91,18 +107,14 @@
                         <constraints>
                             <constraint firstItem="3pd-JZ-hEr" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="123" id="4TG-yh-JlQ"/>
                             <constraint firstItem="3pd-JZ-hEr" firstAttribute="top" secondItem="Ex6-tF-9Vq" secondAttribute="bottom" constant="36" id="Cc5-aY-Dbh"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="1it-Wo-Gxo" secondAttribute="bottom" constant="208" id="Fho-FF-JtW"/>
                             <constraint firstItem="Ex6-tF-9Vq" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="87" id="FwD-v5-fT9"/>
                             <constraint firstItem="7Qy-bb-SIB" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="116" id="Iko-Te-vhJ"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="g9y-al-JQM" secondAttribute="trailing" constant="126" id="Kgo-lt-5vK"/>
-                            <constraint firstItem="1it-Wo-Gxo" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="202" id="LVO-pz-HvT"/>
                             <constraint firstItem="7Qy-bb-SIB" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="17" id="SQe-lq-yIe"/>
                             <constraint firstItem="Ex6-tF-9Vq" firstAttribute="centerX" secondItem="3pd-JZ-hEr" secondAttribute="centerX" id="Xtv-Bm-6ng"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="eqr-Fd-w0t" secondAttribute="trailing" constant="20" id="e4a-80-xpX"/>
-                            <constraint firstItem="1it-Wo-Gxo" firstAttribute="top" secondItem="JJ4-6Y-QM9" secondAttribute="bottom" constant="26" id="fiI-ji-anM"/>
                             <constraint firstItem="aBG-0K-83E" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="fno-T4-XPq"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="eqr-Fd-w0t" secondAttribute="bottom" constant="79" id="hpk-lq-YZb"/>
-                            <constraint firstItem="3pd-JZ-hEr" firstAttribute="centerX" secondItem="JJ4-6Y-QM9" secondAttribute="centerX" id="iGC-kj-Api"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="7Qy-bb-SIB" secondAttribute="trailing" constant="115" id="lhi-CM-HCr"/>
                             <constraint firstItem="g9y-al-JQM" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="126" id="lwt-o0-hsM"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="aBG-0K-83E" secondAttribute="bottom" constant="80" id="tGv-d5-6Of"/>
@@ -114,6 +126,7 @@
                     <connections>
                         <outlet property="answerLabel" destination="Ex6-tF-9Vq" id="Czg-LL-r4g"/>
                         <outlet property="correctAnswerCountUI" destination="1it-Wo-Gxo" id="GlX-N8-YEB"/>
+                        <outlet property="falseAnswerCountUI" destination="Qsb-Sk-biz" id="YKr-rU-OHh"/>
                         <outlet property="imageView" destination="g9y-al-JQM" id="VJg-3X-MPu"/>
                         <outlet property="modeSelector" destination="7Qy-bb-SIB" id="Ikx-tf-WuA"/>
                         <outlet property="showAnswerButton" destination="aBG-0K-83E" id="Kbc-bX-0aJ"/>
@@ -122,7 +135,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="29.23076923076923" y="69.66824644549763"/>
+            <point key="canvasLocation" x="28.985507246376812" y="69.642857142857139"/>
         </scene>
     </scenes>
     <resources>
