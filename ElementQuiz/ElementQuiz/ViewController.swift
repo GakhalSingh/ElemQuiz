@@ -26,6 +26,7 @@ class ViewController: UIViewController, UITextFieldDelegate {
     @IBOutlet weak var imageView: UIImageView!
     @IBOutlet weak var answerLabel: UILabel!
     @IBOutlet weak var textField: UITextField!
+    @IBOutlet weak var correctAnswerCountUI: UILabel!
     
     let elementList = ["Carbon", "Gold", "Chlorine","Sodium"]
     var currentElementIndex = 0
@@ -77,6 +78,7 @@ class ViewController: UIViewController, UITextFieldDelegate {
         if textFieldContents.lowercased() == elementList[currentElementIndex].lowercased() {
             answerIsCorrect = true
             correctAnswerCount += 1
+            correctAnswerCountUI.text = String(correctAnswerCount)
         } else {
             answerIsCorrect = false
         }

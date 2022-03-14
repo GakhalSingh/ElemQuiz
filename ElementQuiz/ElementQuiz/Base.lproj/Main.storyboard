@@ -110,6 +110,7 @@
                     </view>
                     <connections>
                         <outlet property="answerLabel" destination="Ex6-tF-9Vq" id="Czg-LL-r4g"/>
+                        <outlet property="correctAnswerCountUI" destination="1it-Wo-Gxo" id="GlX-N8-YEB"/>
                         <outlet property="imageView" destination="g9y-al-JQM" id="VJg-3X-MPu"/>
                         <outlet property="modeSelector" destination="7Qy-bb-SIB" id="Ikx-tf-WuA"/>
                         <outlet property="textField" destination="3pd-JZ-hEr" id="bzP-n7-vzR"/>
