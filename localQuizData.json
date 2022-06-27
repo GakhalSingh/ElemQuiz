@@ -1,0 +1,618 @@
+[
+    {
+        "category": "red",
+        "qaNumber": 1,
+        "question": "Reuzel is?",
+        "answer": "gesmolten vet"
+    }, {
+        "category": "red",
+        "qaNumber": 2,
+        "question": "Een man die een doel verdedigt noemen we een?",
+        "answer": "keeper"
+    }, {
+        "category": "red",
+        "qaNumber": 3,
+        "question": "Welk scheldwoord is een lijster met diaree?",
+        "answer": "een schijtlijster"
+    }, {
+        "category": "red",
+        "qaNumber": 4,
+        "question": "Een tien met een griffel en een ..",
+        "answer": "zoen van de juffrouw"
+    }, {
+        "category": "red",
+        "qaNumber": 5,
+        "question": "Een bajesklant hoort in de ..",
+        "answer": "gevangenis"
+    }, {
+        "category": "red",
+        "qaNumber": 6,
+        "question": "Een spionnetje is een kleine ..",
+        "answer": "buitenspiegel"
+    }, {
+        "category": "red",
+        "qaNumber": 7,
+        "question": "De tegenstelling van bescheiden is ..",
+        "answer": "brutaal"
+    }, {
+        "category": "red",
+        "qaNumber": 8,
+        "question": "Het binnenste van een appel heet een ..",
+        "answer": "klokhuis"
+    }, {
+        "category": "red",
+        "qaNumber": 9,
+        "question": "Nonnen wonen in een ..",
+        "answer": "klooster"
+    }, {
+        "category": "red",
+        "qaNumber": 10,
+        "question": "Een zure bom is een grote ..",
+        "answer": "augurk"
+    }, {
+        "category": "red",
+        "qaNumber": 11,
+        "question": "Als een dominee preekt staat hij op een ..",
+        "answer": "preekstoel/kansel"
+    }, {
+        "category": "red",
+        "qaNumber": 12,
+        "question": "Wat is een deern? ",
+        "answer": "Een meisje"
+    }, {
+        "category": "red",
+        "qaNumber": 13,
+        "question": "Als je de kooi induikt, dan ga je naar ..",
+        "answer": "bed"
+    }, {
+        "category": "red",
+        "qaNumber": 14,
+        "question": "Een tabberd is de mantel van ..",
+        "answer": "Sinterklaas"
+    }, {
+        "category": "red",
+        "qaNumber": 15,
+        "question": "Erwtensoep noemen we ook wel ..",
+        "answer": "snert"
+    }, {
+        "category": "red",
+        "qaNumber": 16,
+        "question": "Bij schering hoort ..",
+        "answer": "inslag"
+    }, {
+        "category": "red",
+        "qaNumber": 17,
+        "question": "Wat is een bakje troost? ",
+        "answer": "een kopje koffie"
+    }, {
+        "category": "red",
+        "qaNumber": 18,
+        "question": "Hete bliksem is een stamppot van?",
+        "answer": "aardappelen en zoete appels"
+    }, {
+        "category": "red",
+        "qaNumber": 19,
+        "question": "Een geheugensteuntje noemen we ook wel een ..",
+        "answer": "ezelsbruggetje"
+    }, {
+        "category": "red",
+        "qaNumber": 20,
+        "question": "Raasdonders zijn?",
+        "answer": "grauwe erwten"
+    }, {
+        "category": "red",
+        "qaNumber": 21,
+        "question": "Zo koppig als een ..",
+        "answer": "ezel"
+    }, {
+        "category": "red",
+        "qaNumber": 22,
+        "question": "Wanneer kwam de baker? ",
+        "answer": "Als er een kind geboren was"
+    }, {
+        "category": "red",
+        "qaNumber": 23,
+        "question": "Wat voor soort lekkernij is een tulband?",
+        "answer": "ronde cake met een gat"
+    }, {
+        "category": "red",
+        "qaNumber": 24,
+        "question": "Een barbier is een kapper die ook?",
+        "answer": "scheert"
+    }, {
+        "category": "yellow",
+        "qaNumber": 101,
+        "question": "Hoe heet dit spel?",
+        "answer": "WordGuessR"
+    }, {
+        "category": "yellow",
+        "qaNumber": 102,
+        "question": "Kapok werd vroeger veel gebruikt voor",
+        "answer": ".."
+    }, {
+        "category": "yellow",
+        "qaNumber": 103,
+        "question": "Fongers en Gazelle horen bij",
+        "answer": ".."
+    }, {
+        "category": "yellow",
+        "qaNumber": 104,
+        "question": "Wij welke apparaat hoort de beeldbuis?",
+        "answer": ".."
+    }, {
+        "category": "yellow",
+        "qaNumber": 105,
+        "question": "Wat verzamelde men vroeger van sigaren?",
+        "answer": ".."
+    }, {
+        "category": "yellow",
+        "qaNumber": 106,
+        "question": "Als je gaat picknicken, wat ga je dan doen?",
+        "answer": ".."
+    }, {
+        "category": "yellow",
+        "qaNumber": 107,
+        "question": "Een heitje voor een karweitje, hoeveel is dat?",
+        "answer": ".."
+    }, {
+        "category": "yellow",
+        "qaNumber": 108,
+        "question": "Waarvoor werd zeegras veel gebruikt?",
+        "answer": ""
+    }, {
+        "category": "yellow",
+        "qaNumber": 109,
+        "question": "In welke kerk wordt wijwater veel gebruikt?",
+        "answer": ".."
+    }, {
+        "category": "yellow",
+        "qaNumber": 110,
+        "question": "De ‘R' in de maand betekende vroeger elke dag een lepel",
+        "answer": ""
+    }, {
+        "category": "yellow",
+        "qaNumber": 111,
+        "question": "Wat moet er bij deeg om het te laten rijzen?",
+        "answer": ".."
+    }, {
+        "category": "yellow",
+        "qaNumber": 112,
+        "question": "Het merk sunlight hoort bij",
+        "answer": ""
+    }, {
+        "category": "yellow",
+        "qaNumber": 113,
+        "question": "Over welke dikke held schreef Joh. Kievet een boek?",
+        "answer": ".."
+    }, {
+        "category": "yellow",
+        "qaNumber": 114,
+        "question": "Bij Ollie B. Bommel hoort",
+        "answer": ""
+    }, {
+        "category": "yellow",
+        "qaNumber": 115,
+        "question": "Hoeveel zonen heeft Koningin Beatrix?",
+        "answer": ""
+    }, {
+        "category": "yellow",
+        "qaNumber": 116,
+        "question": "Pietje pelle reed op",
+        "answer": ""
+    }, {
+        "category": "yellow",
+        "qaNumber": 117,
+        "question": "",
+        "answer": ""
+    }, {
+        "category": "yellow",
+        "qaNumber": 118,
+        "question": "Welke beroep had Simon Carmiggelt?",
+        "answer": ""
+    }, {
+        "category": "yellow",
+        "qaNumber": 119,
+        "question": "Over welke tiental schreef Nienke van Hichtum een boek?",
+        "answer": ""
+    }, {
+        "category": "yellow",
+        "qaNumber": 120,
+        "question": "‘Ja zuster', ‘Nee zuster', is",
+        "answer": ""
+    }, {
+        "category": "yellow",
+        "qaNumber": 121,
+        "question": "Wat was ‘De Bonte Dinsdagavond Trein'?",
+        "answer": ""
+    }, {
+        "category": "yellow",
+        "qaNumber": 122,
+        "question": "Wij welke apparaten hoort het merk ETNA?",
+        "answer": ""
+    }, {
+        "category": "yellow",
+        "qaNumber": 123,
+        "question": "Noem twee stamppotten die met rookworst wordengegeten",
+        "answer": ""
+    }, {
+        "category": "yellow",
+        "qaNumber": 124,
+        "question": "Wat voor radiofiguur was Paul Vlaanderen?",
+        "answer": ""
+    }, {
+        "category": "yellow",
+        "qaNumber": 125,
+        "question": "De eerste haringvangst noemen we",
+        "answer": ""
+    }, {
+        "category": "green",
+        "qaNumber": 201,
+        "question": "Welk product komt van een schaap? ",
+        "answer": "wol"
+    }, {
+        "category": "green",
+        "qaNumber": 202,
+        "question": "Het lelijke jonge eendje was geen eend, maar een ..",
+        "answer": "zwaan"
+    }, {
+        "category": "green",
+        "qaNumber": 203,
+        "question": "Waarop jaagt een poes?",
+        "answer": "Op vogels en muizen"
+    }, {
+        "category": "green",
+        "qaNumber": 204,
+        "question": "Een citroen en een kanarie zijn allebei?",
+        "answer": "geel"
+    }, {
+        "category": "green",
+        "qaNumber": 205,
+        "question": "Een kerstboom heeft geen bladeren, maar?",
+        "answer": "naalden"
+    }, {
+        "category": "green",
+        "qaNumber": 206,
+        "question": "In welke jaargetijde vindt je kastanjes?",
+        "answer": "In de herfst"
+    }, {
+        "category": "green",
+        "qaNumber": 207,
+        "question": "Wat voor honden zwemmen in de Waddenzee? ",
+        "answer": "zeehonden"
+    }, {
+        "category": "green",
+        "qaNumber": 208,
+        "question": "Op hoeveel poten loopt een pinguïn? ",
+        "answer": "twee"
+    }, {
+        "category": "green",
+        "qaNumber": 209,
+        "question": "Een rozenbottel is de vrucht van? ",
+        "answer": "een roos"
+    }, {
+        "category": "green",
+        "qaNumber": 210,
+        "question": "Welke kleuren hebben bonen en erwten? ",
+        "answer": "Bruin en groen"
+    }, {
+        "category": "green",
+        "qaNumber": 211,
+        "question": "Welke vogel komt uit een klok? ",
+        "answer": "Een koekoek"
+    }, {
+        "category": "green",
+        "qaNumber": 212,
+        "question": "Een pauw is trots op zijn?",
+        "answer": "staartveren"
+    }, {
+        "category": "green",
+        "qaNumber": 213,
+        "question": "Welke lekkere bessen groeien in het bos? ",
+        "answer": "bosbessen"
+    }, {
+        "category": "green",
+        "qaNumber": 214,
+        "question": "Een vogel heeft veren en een egel heeft? ",
+        "answer": "stekels"
+    }, {
+        "category": "green",
+        "qaNumber": 215,
+        "question": "Welke dier hinnikt? ",
+        "answer": "Een paard"
+    }, {
+        "category": "green",
+        "qaNumber": 216,
+        "question": "Welke kleur heeft een goudvis? ",
+        "answer": "rood/oranje"
+    }, {
+        "category": "green",
+        "qaNumber": 217,
+        "question": "",
+        "answer": ""
+    }, {
+        "category": "green",
+        "qaNumber": 218,
+        "question": "",
+        "answer": ""
+    }, {
+        "category": "green",
+        "qaNumber": 219,
+        "question": "Met welke insecten werkt een inker?",
+        "answer": " met bijen"
+    }, {
+        "category": "green",
+        "qaNumber": 220,
+        "question": "Welke dier heeft een slurf? ",
+        "answer": "Een olifant"
+    }, {
+        "category": "green",
+        "qaNumber": 221,
+        "question": "Welke kleuren hebben vergeet-mij-nietjes? ",
+        "answer": "blue"
+    }, {
+        "category": "green",
+        "qaNumber": 222,
+        "question": "Merg is het binnenste van?",
+        "answer": "botten"
+    }, {
+        "category": "green",
+        "qaNumber": 223,
+        "question": "Aan welke boom groeien katjes? ",
+        "answer": "Aan de wilg en els"
+    }, {
+        "category": "green",
+        "qaNumber": 224,
+        "question": "Welk dier draagt zijn huisje op zijn rug?",
+        "answer": "een slak"
+    }, {
+        "category": "green",
+        "qaNumber": 225,
+        "question": "Een apennootje is een ander woord voor een?",
+        "answer": "pinda"
+    }, {
+        "category": "green",
+        "qaNumber": 226,
+        "question": "Welke klaverblad brengt geluk? ",
+        "answer": "Een klavertjevier"
+    }, {
+        "category": "blue",
+        "qaNumber": 301,
+        "question": "Poes, poes, lelijke poes, ...",
+        "answer": "wist je dan niet dat je jongen moest"
+    }, {
+        "category": "blue",
+        "qaNumber": 302,
+        "question": "De paden op, de lanen in, ...",
+        "answer": "vooruit met flinke pas"
+    }, {
+        "category": "blue",
+        "qaNumber": 303,
+        "question": "Ik ben zo blij, zo blij, dat mijn neus van voren zit ...",
+        "answer": " en niet opzij"
+    }, {
+        "category": "blue",
+        "qaNumber": 304,
+        "question": "Een karretje op de ...",
+        "answer": "zandweg reed"
+    }, {
+        "category": "blue",
+        "qaNumber": 305,
+        "question": "De bakker van de hoek, die heeft ...",
+        "answer": "vannacht geblazen"
+    }, {
+        "category": "blue",
+        "qaNumber": 306,
+        "question": "Mijn zusje kreeg van Sinterklaas ...",
+        "answer": "twee emmertjes van blik"
+    }, {
+        "category": "blue",
+        "qaNumber": 307,
+        "question": "Daar was laatst een ...",
+        "answer": "meisje loos"
+    }, {
+        "category": "blue",
+        "qaNumber": 308,
+        "question": "Op de grote stille heide, dwaalt ...",
+        "answer": "de herder eenzaam rond"
+    }, {
+        "category": "blue",
+        "qaNumber": 309,
+        "question": "Wie heeft er suiker in de ...",
+        "answer": "erwtensoep gedaan"
+    }, {
+        "category": "blue",
+        "qaNumber": 310,
+        "question": "Zij kon het lonken niet laten, zij lonkte ...",
+        "answer": "naar iedere man"
+    }, {
+        "category": "blue",
+        "qaNumber": 311,
+        "question": "Toen onze Mops een ... ",
+        "answer": "Mopje was"
+    }, {
+        "category": "blue",
+        "qaNumber": 312,
+        "question": "Ik heb een eerbied ...",
+        "answer": "voor jouw grijze haren"
+    }, {
+        "category": "blue",
+        "qaNumber": 313,
+        "question": "Als ik tweemaal met mijn ...",
+        "answer": "fietsbel bel"
+    }, {
+        "category": "blue",
+        "qaNumber": 314,
+        "question": "Het Angelus klept ...",
+        "answer": "in de verte"
+    }, {
+        "category": "blue",
+        "qaNumber": 315,
+        "question": "Hoe zachtjes glijdt ons ...",
+        "answer": "bootje"
+    }, {
+        "category": "blue",
+        "qaNumber": 316,
+        "question": "Twee ogen zijn blauw, ...",
+        "answer": "zo innig en trouw"
+    }, {
+        "category": "blue",
+        "qaNumber": 317,
+        "question": "Komt vrienden in het rondje, ...",
+        "answer": "minnaars van enen steel"
+    }, {
+        "category": "blue",
+        "qaNumber": 318,
+        "question": "Onder moeders paraplu, liepen ...",
+        "answer": "eens twee kindjes"
+    }, {
+        "category": "blue",
+        "qaNumber": 319,
+        "question": "Berend Botje, ..." ,
+        "answer": "ging uit varen"
+    }, {
+        "category": "blue",
+        "qaNumber": 320,
+        "question": "Dat is het einde, dat doet de ...",
+        "answer": "deur dicht"
+    }, {
+        "category": "blue",
+        "qaNumber": 321,
+        "question": "Als de lente komt, dan stuur ik jou ...",
+        "answer": "tulpen uit Amsterdam"
+    }, {
+        "category": "blue",
+        "qaNumber": 322,
+        "question": "Er hangt een paardenhoofdstel ...",
+        "answer": "aan de muur"
+    }, {
+        "category": "blue",
+        "qaNumber": 323,
+        "question": "Geef mij maar Amsterdam, ...",
+        "answer": "dat is mooier dan Parijs"
+    }, {
+        "category": "blue",
+        "qaNumber": 324,
+        "question": "Zorg, dat je d’r bij komt, bij de marine, ... ",
+        "answer": "bij de marine"
+    }, {
+        "category": "orange",
+        "qaNumber": 401,
+        "question": "Spreken is zilver,",
+        "answer": "zwijgen is goud"
+    }, {
+        "category": "orange",
+        "qaNumber": 402,
+        "question": "Iedere dag een draadje, maakt een",
+        "answer": ""
+    }, {
+        "category": "orange",
+        "qaNumber": 403,
+        "question": "Geld dat stom is, maakt",
+        "answer": ""
+    }, {
+        "category": "orange",
+        "qaNumber": 404,
+        "question": "De liefde van de man gaat",
+        "answer": "maag"
+    }, {
+        "category": "orange",
+        "qaNumber": 405,
+        "question": "Je moet van een mug geen",
+        "answer": "olifant maken"
+    }, {
+        "category": "orange",
+        "qaNumber": 406,
+        "question": "De laatste loodjes",
+        "answer": "wegen het zwaarst"
+    }, {
+        "category": "orange",
+        "qaNumber": 407,
+        "question": "Als katjes muizen, dan",
+        "answer": "dansen de muizen op tafel"
+    }, {
+        "category": "orange",
+        "qaNumber": 408,
+        "question": "‘t laatste hemd heeft geen",
+        "answer": ".."
+    }, {
+        "category": "orange",
+        "qaNumber": 409,
+        "question": "Een spin in de morgen brengt een",
+        "answer": ".."
+    }, {
+        "category": "orange",
+        "qaNumber": 410,
+        "question": "Eén zwaluw maakt ",
+        "answer": ".."
+    }, {
+        "category": "orange",
+        "qaNumber": 411,
+        "question": "Wie zijn billen brandt, moet op de ",
+        "answer": "blaren zitten"
+    }, {
+        "category": "orange",
+        "qaNumber": 412,
+        "question": "Beter hard geblazen dan",
+        "answer": ".."
+    }, {
+        "category": "orange",
+        "qaNumber": 413,
+        "question": "Wie te laat thuis komt, vindt de hond",
+        "answer": ".."
+    }, {
+        "category": "orange",
+        "qaNumber": 414,
+        "question": "Het hoog van de meester",
+        "answer": ".."
+    }, {
+        "category": "orange",
+        "qaNumber": 415,
+        "question": "Beter een half ei dan",
+        "answer": ".."
+    }, {
+        "category": "orange",
+        "qaNumber": 416,
+        "question": "Vogeltjes die vroeg zingen, zijn",
+        "answer": ".."
+    }, {
+        "category": "orange",
+        "qaNumber": 417,
+        "question": "Een oude bok lust nog graag",
+        "answer": ".."
+    }, {
+        "category": "orange",
+        "qaNumber": 418,
+        "question": "Het is niet alles goud",
+        "answer": ".."
+    }, {
+        "category": "orange",
+        "qaNumber": 419,
+        "question": "Als de wijn is in de man, is",
+        "answer": "de wijsheid in de kan"
+    }, {
+        "category": "orange",
+        "qaNumber": 420,
+        "question": "Wie het kleine niet eert,",
+        "answer": ".."
+    }, {
+        "category": "orange",
+        "qaNumber": 421,
+        "question": "Als het kalf verdronken is,",
+        "answer": ".."
+    }, {
+        "category": "orange",
+        "qaNumber": 422,
+        "question": "Hij heeft een aardje ",
+        "answer": ".."
+    }, {
+        "category": "orange",
+        "qaNumber": 423,
+        "question": "De een zijn dood, is de ander",
+        "answer": "brood"
+    }, {
+        "category": "orange",
+        "qaNumber": 425,
+        "question": "Wie zijn neus schandt,",
+        "answer": ".."
+        }
+]
